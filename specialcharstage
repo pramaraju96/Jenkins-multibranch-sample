@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+
+    // supported characters for Pipeline name ~()_+{}".,'=-`1 P
+    stages {
+        stage('Build~()_+{}".,=-`1 P') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Test~()_+{}".,=-`1 P') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Deploy~()_+{}".,=-`1 P') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
